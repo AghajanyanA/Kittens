@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(43, 15, 54);
+  color: white
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.filtersWrapper {
+  width: 15%;
+}
+
+.resultsWrapper {
+  width: 85%;
+}
+
+.categories > div {
+  margin-left: 15px;
+  text-align: center;
+  background-color: #F7A579;
+  margin-top: 3%;
+  width: 90%;
+  border-radius: 5px;
+  padding: 5px 0; 
+}
+
+.categories > div:hover {
+  cursor: pointer;
+}
+
+.selectedCategory {
+  background-color: #fa5d09 !important;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.results > img {
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+
+.preloaderIMG {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  border-radius: 25px;
+  background-color: rgb(70, 70, 70);
+  padding-right: 30px;
+}
+
+.loadMoreButton {
+  background-color: #F7A579;
+  border: none;
+  padding: 5px 15px;
+  color: blue;
+  font-size: large;
+  margin: 35px 0;
+}
+
+.loadMoreButton:hover {
+  cursor: pointer;
+}
